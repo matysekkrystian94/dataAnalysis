@@ -8,5 +8,8 @@ class DataSource:
     def printColumnNames(self):
         return list(self.datasource.keys())
 
+    def printHead(self):
+        print(self.datasource.head())
+
 
 

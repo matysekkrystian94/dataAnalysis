@@ -1,7 +1,6 @@
-import pandas as pd
-from DataSource import DataSource
+from dataAnalysis.DataSkecht.DataSource import DataSource
 
 
 excelFile = DataSource("/home/krystian/Downloads/x.csv")
-print(excelFile)
+excelFile.printHead()
 print(excelFile.printColumnNames())
